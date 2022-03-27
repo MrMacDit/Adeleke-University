@@ -1,0 +1,264 @@
+/* navbars */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+/* headers */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* regular texts */
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Basic&display=swap');
+
+HTML, body {
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+/* Carousel Slide */
+.carousel .carousel-inner img{
+    min-height: 400px;
+}
+
+
+p {
+    font-family: 'Gentium Basic' serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Bebas Neue';
+}
+
+/* Styling of em */
+em.em{
+    color: royalblue;
+    font-size: 20px;
+}
+em.em1{
+    color: rgba(89.41%, 73.73%, 24.71%);
+    font-size: 20px;
+}
+
+/* University Logo img */
+
+
+/* NAVBAR related */
+
+nav{
+    font-family: 'Merriweather';
+    background: #002147;
+    color: #B2B2B2;
+    padding-left: 0px;
+}
+
+/* affecting the Adeleke University ICON */
+nav a{
+    margin-left: -7px;
+    opacity: 1;
+}
+
+/* affecting the H5 that displays the ADELEKE UNIVERSITY display */
+nav h5{
+    margin-left: -10px;
+    text-align: center;
+    opacity: 1;
+    color: #B2B2B2;
+}
+
+nav .navbar-toggler{
+    color: #B2B2B2 !important;
+}
+
+.navbar{
+    padding: 10px;
+    font-family: 'Bebas Neue' cursive;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.navbar-nav a{
+    text-align: center;
+}
+
+
+/* text related */
+h1, h2, h3, h4, h5, h6, p{
+    text-align: justify;
+}
+
+/* carousel */
+.carousel-item img{
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+}
+
+.carousel-item h3{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Merriweather';
+}
+
+/* .carousel-item h3 a{
+    padding: 20px;
+    margin: 100px;
+} */
+
+.heading{
+    padding: 20px;
+    background: rgba(89.41%, 73.73%, 24.71%);
+}
+
+
+/* ADMISSION PAGE */
+.admission{
+    background-color: rgba(228, 187, 63, 0.973);
+    color: white;
+    padding: 7px;
+}
+.admission p{
+    font-size: 25px;
+}
+
+/* footer */
+
+footer{
+    padding-top: 15px;
+    margin-bottom: 5px;
+    background-color: #002147;
+    color: #B2B2B2;
+}
+
+/* HR design */
+hr {
+    background: #b2b2b2d2;
+}
+
+/* NOTICE Edit */
+.notice{
+    background: rgba(128, 128, 128, .1);
+}
+/* Hr for the Notice in the HomePage */
+hr.notices{
+    padding-top: 0;
+    margin-top: -6px;
+}
+/* NOTICE affecting the H3 */
+h3.notices{
+    text-align: center;
+}
+
+/* Notice Section attached to the Newsfeed */
+.notice a{
+    color: black;
+}
+
+
+/* students portal */
+.student{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+.student p{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: sienna;
+    margin-left: 40px;
+}
+
+.student p::before{
+    content: "";
+}
+
+.student .portal li{
+    margin-top: 15px;
+}
+
+
+/* BUTTON COLOR */
+.btn-secondary{
+    background: #002147;
+}
+.btn-xl{
+    color: #B2B2B2;
+}
+/* ANCHOR TAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAG */
+a{
+    color: white;
+}
+a.department{
+    color: rgba(8, 8, 8, 0.815);
+}
+/* STUDENTS PORTAL EDIT */
+.Sportal {
+    position: sticky;
+    top: 17.5%;
+    color: #ffffff;
+    height: 80%;
+    
+}
+.Sportal h3{
+    text-align: center;
+    color: rgba(8, 8, 8, 0.815);
+    font-weight: 20px;
+    font-size: 30px;
+
+}
+
+.Sportal p{
+    padding: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.Sportal_1{
+    background: #58B9D4;
+}
+.Sportal_2{
+    background: #6AB165;
+}
+.Sportal_3{
+    background: #50485B;
+}
+.Sportal_4{
+    background: #0088CC;
+}
+.Sportal_5{
+    background: #F7BE68;
+}
+.Sportal_6{
+    background: #555555;
+}
+.Sportal_7{
+    background: #5AA1E3;
+}
+
+
+
+
+
+
+
+
+/* Admins  and admin */
+.admin{
+    float: left;
+    margin-right: 5px;
+}
+
+
+table, tr, th, td{
+    border: black solid 2px;
+    text-align: center;
+    padding: 0 8px 0 8px;
+}
+
+
+/* Fixed Images in Department */
+#fixedBG{
+    background-image: url(department/Microbiology.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 200px;
+    opacity: 0.5;
+}
